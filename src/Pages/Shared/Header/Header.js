@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
+
+
     return (
         <div>
             <h1> Header section push</h1>
@@ -9,6 +11,7 @@ const Header = () => {
             </div>
         </div>
     );
+
 };
 
 export default Header;
