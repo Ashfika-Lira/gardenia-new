@@ -4,7 +4,8 @@ const Navigation = () => {
     return (
         <div>
             <h1> Navigation section</h1>
-            
+            <h1> Navigation section</h1>
+            <h1> Navigation section</h1>
         </div>
     );
 };
