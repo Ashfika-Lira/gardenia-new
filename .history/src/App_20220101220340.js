@@ -5,6 +5,7 @@ import Contact from './Pages/Contact/Contact';
 import FQA from './Pages/FQA/FQA';
 import Home from './Pages/Home/Home/Home';
 import Header from './Pages/Shared/Header/Header';
+import Navigation from './Pages/Shared/Navigation/Navigation';
 import Shop from './Pages/Shop/Shop';
 
 function App() {
