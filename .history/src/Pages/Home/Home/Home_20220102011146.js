@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <>
             <Header></Header>
-            <Navigation></Navigation>
+            <Nav
             {
                 data && data.map((items) => <h2>{items.name}</h2>)
             }
