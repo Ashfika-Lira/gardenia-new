@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Nav, Navbar } from 'react-bootstrap';
+import { Dropdown, Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
  
 const Navigation = () => {
@@ -17,7 +17,9 @@ const Navigation = () => {
         Gardenia
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">      
+      <Navbar.Collapse id="responsive-navbar-nav">
+        
+              
         <Nav>
           <Nav.Link as={HashLink} to="/shops">
             Shops

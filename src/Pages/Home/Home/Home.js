@@ -1,11 +1,16 @@
 import React from "react";
+import { useGetAllPostQuery } from "../../../hooks/useProducts";
 
 const Home = () => {
-  return (
-    <div>
-      <h1>This is Home page </h1>
-    </div>
-  );
+    const { data } = useGetAllPostQuery();
+    console.log(data)
+    return (
+        <>
+            {
+                data && data.map((items) => <h2>{items.name}</h2>)
+            }
+        </>
+    );
 };
 
 export default Home;

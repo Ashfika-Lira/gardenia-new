@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import "./Header.css";
 import { NavLink } from 'react-router-dom';
@@ -30,6 +31,20 @@ const Header = () => {
     </div>
   </div>
 	);
+=======
+import React from "react";
+
+const Header = () => {
+
+
+    return (
+        <div>
+            <h1> Header section push</h1>
+            
+        </div>
+    );
+
+>>>>>>> 95031f58b2fcc74f12fd7b0f37eca2fa26bea054
 };
 
 export default Header;
