@@ -12,7 +12,8 @@ import Shop from './Pages/Shop/Shop';
 function App() {
   return (
     <div className="App">  
-      <BrowserRouter> 
+      <BrowserRouter>
+       
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>
@@ -20,6 +21,7 @@ function App() {
           <Route path='/Contact' element={<Contact></Contact>}></Route>
           <Route path='/Shop' element={<Shop></Shop>}></Route>
           <Route path='/fqa' element={<FQA></FQA>}></Route>
+
         </Routes>
       </BrowserRouter>
     </div>

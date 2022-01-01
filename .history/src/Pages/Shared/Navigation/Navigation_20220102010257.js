@@ -3,7 +3,15 @@ import {Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
+  
+import {  Nav, Navbar } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+ 
+const Navigation = () => {
    
+ 
+ 
+>>>>>>> 2147a03e3055a3fb4a41a73baa8801319445823b
   return (
     <Navbar
       className="px-4 navigation-bar-main"
@@ -15,9 +23,12 @@ const Navigation = () => {
         Gardenia
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-
+<<<<<<< HEAD
       <Navbar.Collapse id="responsive-navbar-nav">
-      
+       
+=======
+      <Navbar.Collapse id="responsive-navbar-nav">      
+>>>>>>> 2147a03e3055a3fb4a41a73baa8801319445823b
         <Nav>
           <Nav.Link as={HashLink} to="/shops">
             Shops
@@ -32,12 +43,17 @@ const Navigation = () => {
             Contact
           </Nav.Link>
         </Nav>
+<<<<<<< HEAD
         
       </Navbar.Collapse>
-  
+    </Navbar>
+        
+=======
+       
+      </Navbar.Collapse>
     </Navbar>
        
-
+>>>>>>> 2147a03e3055a3fb4a41a73baa8801319445823b
     );
 };
  

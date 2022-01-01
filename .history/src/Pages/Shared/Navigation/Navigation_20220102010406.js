@@ -3,6 +3,11 @@ import {Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
+  
+import {  Nav, Navbar } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+ 
+const Navigation = () => {
    
   return (
     <Navbar
@@ -16,8 +21,10 @@ const Navigation = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-      <Navbar.Collapse id="responsive-navbar-nav">
-      
+      <Navbar.Collaps id="responsive-navbar-nav">
+       
+      <Navbar.Collapse id="responsive-navbar-nav">      
+
         <Nav>
           <Nav.Link as={HashLink} to="/shops">
             Shops
@@ -34,7 +41,10 @@ const Navigation = () => {
         </Nav>
         
       </Navbar.Collapse>
-  
+    </Navbar>
+      
+       
+      </Navbar.Collapse>
     </Navbar>
        
 

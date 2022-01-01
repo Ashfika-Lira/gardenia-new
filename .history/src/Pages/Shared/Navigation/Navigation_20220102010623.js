@@ -17,7 +17,9 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
       <Navbar.Collapse id="responsive-navbar-nav">
-      
+       
+       
+
         <Nav>
           <Nav.Link as={HashLink} to="/shops">
             Shops
@@ -34,7 +36,10 @@ const Navigation = () => {
         </Nav>
         
       </Navbar.Collapse>
-  
+   
+      
+       
+     
     </Navbar>
        
 
