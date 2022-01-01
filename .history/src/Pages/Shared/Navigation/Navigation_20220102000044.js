@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
