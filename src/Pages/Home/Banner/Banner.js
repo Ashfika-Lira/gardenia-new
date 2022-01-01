@@ -17,7 +17,9 @@ const Banner = () => {
             <div className="banner-content">
               <p>Kitchen Accessories</p>
               <h3>Morso Kit Mortel</h3>
-              <button className="banner-btn">Shop Now {arrow}</button>
+              <button className="banner-btn">
+                Shop Now <span>{arrow}</span>
+              </button>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -28,7 +30,9 @@ const Banner = () => {
             <div className="banner-content">
               <p>Kitchen Accessories</p>
               <h3>Morso Kit Mortel</h3>
-              <button className="banner-btn">Shop Now {arrow}</button>
+              <button className="banner-btn">
+                Shop Now <span>{arrow}</span>
+              </button>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
