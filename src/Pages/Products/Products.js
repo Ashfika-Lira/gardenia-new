@@ -1,9 +1,20 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+import {useNavigate} from 'react-router-dom';
+import { addToCart } from '../../features/CartItem/cartSlice';
 import './Products.css'
 
 const Products = (props) => {
-    const { name, price, img, detail,} = props.product;
+    const { name, price, img, detail, } = props.product;
+    const { items: products, status } = useSelector((state) => state.products);
+  const dispatch = useDispatch();
+//   const history = useNavigate();
+
+
+  const handleAddToCart = (product) => {
+    dispatch(addToCart(product));
+  };
     return (
         <>
         <Col className="g-4" lg={4}>
@@ -19,8 +30,7 @@ const Products = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Body>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
+                    <Button onClick={()=> handleAddToCart(props.product)} variant="secondary" size="sm">Add To Cart</Button>
                 </Card.Body>
             </Card>
         </Col>
