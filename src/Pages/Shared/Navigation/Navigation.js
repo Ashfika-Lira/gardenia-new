@@ -9,13 +9,14 @@ const Navigation = () => {
 
   return (
     <Navbar
-      className="px-4 navigation-bar-main"
+      className="px-4 navigation-bar-main "
+      sticky="top"
       collapseOnSelect
       expand="lg"
       variant="light"
     >
       <Navbar.Brand as={HashLink} to="/Home">
-        Gardenia
+        <span className='brand-name'>Gardenia</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -33,9 +34,13 @@ const Navigation = () => {
           <Nav.Link as={HashLink} to="/Contact">
             Contact
           </Nav.Link>
+        </Nav>
+        <Nav className='ms-auto'>
+          
           <Nav.Link as={HashLink} to="/Contact">
             {user.displayName}
           </Nav.Link>
+<<<<<<< HEAD
          
           <Nav.Link as={HashLink} to="/Login">
             Login
@@ -46,11 +51,19 @@ const Navigation = () => {
 
           <Button
                 className=" nav-items-btn m-0  text-secondary "
+=======
+          {
+            user.email? <Button
+                className=" nav-items-btn m-0 me-auto p-0 text-secondary "
+>>>>>>> 4f280702a01113b99dcfc7cd208ed8e00fcb0161
                 onClick={logOut}
                 variant="button"
               >
                 Logout
-              </Button>
+              </Button>: <Nav.Link as={HashLink} to="/Login">
+              Login
+            </Nav.Link>
+         }
         </Nav>
       </Navbar.Collapse>
     </Navbar>
