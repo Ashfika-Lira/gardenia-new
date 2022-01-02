@@ -30,7 +30,7 @@ const FQA = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>How much delivery cost?</Accordion.Header>
+          <Accordion.Header>How to make payment</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -41,8 +41,8 @@ const FQA = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="3">
-          <Accordion.Header>How can i get nearest sotre?</Accordion.Header>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>How to make payment</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
