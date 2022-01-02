@@ -13,40 +13,44 @@ const RecentProjects = () => {
   return (
     <div>
       <Container>
+        <div className="section-heading mt-4">
+          <h2>
+            Recent <span> Projects</span>
+          </h2>
+          <p>Get through all trending products and get your best deal.</p>
+        </div>
         <Row>
-          <div class="col-lg-4">
-            <Row class="mb-3">
+          <div className="col-lg-3">
+            <Row className="mb-4 img">
               <img src={project8} alt="" />
             </Row>
-            <Row class="mb-3">
+
+            <Row className="mb-3 img">
+              <img src={project1} alt="" />
+            </Row>
+          </div>
+          <div className="col-lg-3 mb-3">
+            <Row className="mb-4 img">
               <img src={project2} alt="" />
             </Row>
-          </div>
-          <div class="col-lg-4">
-            <Row class="mb-3">
-              <div class="col-lg-6 mb-3">
-                <img src={project3} alt="" />
-              </div>
-              <div class="col-lg-6">
-                <img src={project4} alt="" />
-              </div>
+            <Row className="mb-3 img">
+              <img src={project3} alt="" />
             </Row>
-            <Row class="mb-3">
+          </div>
+          <div className="col-lg-3">
+            <Row className="mb-4 img">
+              <img src={project4} alt="" />
+            </Row>
+            <Row className="mb-3 img">
               <img src={project5} alt="" />
             </Row>
-            <Row class="mb-3">
-              <img src={project6} alt="" />
-            </Row>
           </div>
-          <div class="col-lg-4">
-            <Row class="mb-3">
+          <div className="col-lg-3">
+            <Row className="mb-4 img">
               <img src={project6} alt="" />
             </Row>
-            <Row class="mb-3">
+            <Row className="mb-3 img">
               <img src={project7} alt="" />
-            </Row>
-            <Row class="mb-3">
-              <img src={project1} alt="" />
             </Row>
           </div>
         </Row>
