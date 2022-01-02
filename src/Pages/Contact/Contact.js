@@ -44,7 +44,6 @@ const Contact = () => {
         </div>
         <Row className="mt-4">
           <div className="col-lg-6  contact-part">
-            <p>contact information</p>
             <h1>Our Address Support</h1>
             <p className="text-dark my-4 w-75">
               Contact information is the data you provide that lets recruiters
@@ -66,7 +65,7 @@ const Contact = () => {
                   <div className="col-2 fs-2 mt-1 info-i">{phone}</div>
                   <div className="col-10">
                     <h5 className="fw-bold">Hotline Number</h5>
-                    <p>+880 1641656113</p>
+                    <p>+880 1234567890</p>
                   </div>
                 </Row>
               </div>
@@ -75,7 +74,7 @@ const Contact = () => {
                   <div className="col-2 fs-2 mt-1 info-i">{email}</div>
                   <div className="col-10">
                     <h5 className="fw-bold">Ask your question</h5>
-                    <p>maruf.moni.mm@gmail.com</p>
+                    <p>gardenia@gmail.com</p>
                   </div>
                 </Row>
               </div>

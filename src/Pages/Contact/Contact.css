@@ -3,11 +3,12 @@
 }
 .contact-part p {
   color: #eb0f5d;
+  font-size: 20px;
 }
 .contact-part h1 {
   color: #323232;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .single-info .info-i {
@@ -23,7 +24,7 @@
 .contact-box h1 {
   color: #323232;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 button {
