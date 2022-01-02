@@ -10,6 +10,7 @@ import Shop from './Pages/Shop/Shop';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import AuthProvider from './Context/AuthProvider';
+import Cart from './Pages/UserRoute/Cart/Cart';
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
           <Route path='/header' element={<Header></Header>}></Route>
           <Route path='/Contact' element={<Contact></Contact>}></Route>
           <Route path='/Shop' element={<Shop></Shop>}></Route>
+          <Route path="/mycart" element={<Cart></Cart>}></Route>  
           <Route path='/fqa' element={<FQA></FQA>}></Route>
           <Route path="/Login" element={<Login></Login>}></Route>
           <Route path="/Register" element={<Register></Register>}></Route>

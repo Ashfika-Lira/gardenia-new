@@ -37,10 +37,12 @@ const Navigation = () => {
             {user.displayName}
           </Nav.Link>
          
-            <Nav.Link as={HashLink} to="/Login">
-              Login
-            </Nav.Link>
-        
+          <Nav.Link as={HashLink} to="/Login">
+            Login
+          </Nav.Link>
+          <Nav.Link as={HashLink} to="/mycart">
+            My Cart
+          </Nav.Link>
 
           <Button
                 className=" nav-items-btn m-0  text-secondary "
