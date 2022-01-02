@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/download.png';
+import logo from '../../../images/download (1).png';
 
 const Footer = () => {
 	return (
-			<div className="footerbg bg-secondary">
+			<div className="footerbg">
             <div className="container p-4">
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
                     <div className="col">
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-8 col-md-6 col-sm-12">
-                        <h2 className="text-light">copyright &copy; reserved <span className="text-dark">Gardenia</span></h2>
+                        <h2 className="text-light">copyright &copy; reserved <span className="text-name">Gardenia</span></h2>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                     </div>
