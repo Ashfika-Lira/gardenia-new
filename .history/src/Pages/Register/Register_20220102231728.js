@@ -2,7 +2,7 @@ import React from "react";
 import { Alert, Button, Spinner } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
-import loginIcon from "../../images/preview.svg";
+import loginIcon from "";
 import useAuth from "../../hooks/useAuth";
 
 const Register = () => {

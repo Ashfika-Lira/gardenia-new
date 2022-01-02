@@ -35,22 +35,7 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link as={HashLink} to="/Contact">
             {user.displayName}
-          </Nav.Link>
-          {
-            user.email? <Button
-                className=" nav-items-btn m-0  text-secondary "
-                onClick={logOut}
-                variant="button"
-              >
-                Logout
-              </Button>: <Nav.Link as={HashLink} to="/Login">
-              Login
-            </Nav.Link>
-         }
-           
-        
-
-          
+         
         </Nav>
       </Navbar.Collapse>
     </Navbar>

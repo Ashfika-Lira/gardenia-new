@@ -2,7 +2,7 @@ import React from "react";
 import { Alert, Button, Spinner } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
-import loginIcon from "../../images/preview.svg";
+import loginIcon from "../../images/loginicon.jpg";
 import useAuth from "../../hooks/useAuth";
 
 const Register = () => {
@@ -24,7 +24,7 @@ const Register = () => {
         <div className="login-section mt-5 mb-5 ms-5">
           <form onSubmit={handleSubmit(onSubmit)} method="post">
             <div className="imgcontainer">
-              <h1 className="title-1"> Please Register</h1>
+              <h1 className="title-1"> Please register</h1>
               <img className="w-25 avatar" src={loginIcon} alt="Avatar" />
             </div>
 

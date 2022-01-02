@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import loginIcon from "../../images/preview.svg";
+import loginIcon from "../../images/loginicon.jpg";
 import useAuth from "../../hooks/useAuth";
 import "./LoginRegister.css";
 
@@ -45,7 +45,7 @@ const Login = () => {
         <div className="login-section mt-5 mb-5 me-5">
           <form onSubmit={handleLoginSubmit} method="post">
             <div className="imgcontainer">
-              <h1 className="title-1">Please Login</h1>
+              <h1 className="title-1">Existing users login with</h1>
               <img className="w-25 avatar" src={loginIcon} alt="Avatar" />
             </div>
             <div className="container">

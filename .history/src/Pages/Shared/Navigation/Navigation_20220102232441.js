@@ -37,7 +37,7 @@ const Navigation = () => {
             {user.displayName}
           </Nav.Link>
           {
-            user.email? <Button
+            user? <Button
                 className=" nav-items-btn m-0  text-secondary "
                 onClick={logOut}
                 variant="button"

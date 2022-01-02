@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import loginIcon from "../../images/preview.svg";
+import loginIcon from "../../images/loginicon.jpg";
 import useAuth from "../../hooks/useAuth";
 import "./LoginRegister.css";
 
@@ -45,7 +45,7 @@ const Login = () => {
         <div className="login-section mt-5 mb-5 me-5">
           <form onSubmit={handleLoginSubmit} method="post">
             <div className="imgcontainer">
-              <h1 className="title-1">Please Login</h1>
+              <h1 className="title-1">Existing users login with</h1>
               <img className="w-25 avatar" src={loginIcon} alt="Avatar" />
             </div>
             <div className="container">
@@ -96,14 +96,14 @@ const Login = () => {
           </form>
           
              <Button
-            className="google-btn ms-5 w-45 fw-bold"
+            className="google-btn w-45 fw-bold"
             onClick={handleGoogleSignIn}
           >
             <i class="fab fa-google"></i>
             Sign in with google
           </Button>
           <Button
-            className="github-btn ms-5 fw-bold w-45 "
+            className="github-btn fw-bold w-50 "
             onClick={handleGoogleSignIn}
           >
             <i class="fab fa-github-square"></i>
