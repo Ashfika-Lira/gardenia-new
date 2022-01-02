@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import "./RecentProjects.css";
-import project1 from "../../../Images/1.jpg";
-import project2 from "../../../Images/2.jpg";
-import project3 from "../../../Images/3.jpg";
-import project4 from "../../../Images/4.jpg";
-import project5 from "../../../Images/5.jpg";
-import project6 from "../../../Images/6.jpg";
-import project7 from "../../../Images/7.jpg";
-import project8 from "../../../Images/8.jpg";
+import project1 from "../../../images/1.jpg";
+import project2 from "../../../images/2.jpg";
+import project3 from "../../../images/3.jpg";
+import project4 from "../../../images/4.jpg";
+import project5 from "../../../images/5.jpg";
+import project6 from "../../../images/6.jpg";
+import project7 from "../../../images/7.jpg";
+import project8 from "../../../images/8.jpg";
 const RecentProjects = () => {
   return (
     <div>

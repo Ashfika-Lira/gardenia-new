@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "./Banner.css";
-import slide1 from "../../../Images/banner1.jpg";
-import slide2 from "../../../Images/banner2.jpg";
+import slide1 from "../../../images/banner1.jpg";
+import slide2 from "../../../images/banner2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 

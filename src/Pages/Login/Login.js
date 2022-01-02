@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import loginIcon from "../../Images/preview.svg";
+import loginIcon from "../../images/preview.svg";
 import "./LoginRegister.css";
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";

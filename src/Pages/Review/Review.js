@@ -1,11 +1,11 @@
 import React from 'react';
 import './Review.css';
-import user1 from '../../Images/1.jpg';
-import user2 from '../../Images/user-2.jpg';
-import user3 from '../../Images/user-3.jpg';
-import user4 from '../../Images/user-4.jpg';
-import user5 from '../../Images/user-5.jpeg';
-import user6 from '../../Images/user-6.jpg';
+import user1 from '../../images/1.jpg';
+import user2 from '../../images/user-2.jpg';
+import user3 from '../../images/user-3.jpg';
+import user4 from '../../images/user-4.jpg';
+import user5 from '../../images/user-5.jpeg';
+import user6 from '../../images/user-6.jpg';
 
 const Review = () => {
     return (
