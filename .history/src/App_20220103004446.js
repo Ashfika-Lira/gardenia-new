@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+import React from "react";
+import "./App.css";
+import Home from "./Pages/Home/Home/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Home />
+
+      <Header />
+=======
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';

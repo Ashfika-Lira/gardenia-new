@@ -1,0 +1,23 @@
+.section-heading h2 {
+  font-size: 35px;
+}
+.section-heading p {
+  color: #696969;
+  font-size: 18px;
+}
+
+.img {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}

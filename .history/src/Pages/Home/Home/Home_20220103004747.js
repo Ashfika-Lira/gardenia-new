@@ -15,7 +15,7 @@ const Home = () => {
       <h1>This is Home page </h1>
       <h2>Branch Created</h2>
 
-      
+      <div>
           <Navigation></Navigation>
           <h1>This is Home page </h1>
           

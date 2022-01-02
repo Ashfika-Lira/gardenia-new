@@ -4,7 +4,7 @@ import Navigation from "../../Shared/Navigation/Navigation";
 
 import Contact from "../../Contact/Contact";
 import Banner from "../Banner/Banner";
-import RecentProjects from "../RecentProjects/RecentProjects";
+
 
 
 const Home = () => {

@@ -1,13 +1,15 @@
 import React from "react";
 
 const Header = () => {
-
+<<<<<<< HEAD
   return (
     <div>
       <h1> Header section</h1>
     </div>
   );
-
+=======
+<<<<<<< HEAD
+=======
 
 
     return (
