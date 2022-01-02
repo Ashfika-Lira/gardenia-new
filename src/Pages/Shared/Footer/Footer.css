@@ -1,5 +1,5 @@
-.footer {
-  background-color: #494546;
+.footerbg {
+  background-color: #b0c3c2;
   color: white;
 }
 .footer-link {
@@ -7,6 +7,9 @@
   color: white;
 }
 .footer-link:hover {
-  color: #b0c3c2;
+  color: lightcoral;
   text-decoration: underline;
+}
+.text-name {
+  color: lightcoral;
 }
