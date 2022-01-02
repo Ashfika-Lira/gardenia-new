@@ -40,9 +40,22 @@ const Navigation = () => {
           <Nav.Link as={HashLink} to="/Contact">
             {user.displayName}
           </Nav.Link>
+
+         
+          <Nav.Link as={HashLink} to="/Login">
+            Login
+          </Nav.Link>
+          <Nav.Link as={HashLink} to="/mycart">
+            My Cart
+          </Nav.Link>
+
+          <Button
+                className=" nav-items-btn m-0  text-secondary "
+=======
           {
             user.email? <Button
                 className=" nav-items-btn m-0 me-auto p-0 text-secondary "
+>>>>>>> 4f280702a01113b99dcfc7cd208ed8e00fcb0161
                 onClick={logOut}
                 variant="button"
               >

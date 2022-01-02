@@ -24,7 +24,19 @@ function App() {
 
       <AuthProvider>
 
-  
+      <BrowserRouter> 
+        <Routes>
+          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/home' element={<Home></Home>}></Route>
+          <Route path='/header' element={<Header></Header>}></Route>
+          <Route path='/Contact' element={<Contact></Contact>}></Route>
+          <Route path='/Shop' element={<Shop></Shop>}></Route>
+          <Route path="/mycart" element={<Cart></Cart>}></Route>  
+          <Route path='/fqa' element={<FQA></FQA>}></Route>
+          <Route path="/Login" element={<Login></Login>}></Route>
+          <Route path="/Register" element={<Register></Register>}></Route>
+        </Routes>
+=======
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
@@ -59,7 +71,7 @@ function App() {
               <Route path={""} element={<PrivateRoute></PrivateRoute>}></Route>
             </Route>
           </Routes>
-
+>>>>>>> 4f280702a01113b99dcfc7cd208ed8e00fcb0161
         </BrowserRouter>
       </AuthProvider>
 

@@ -59,7 +59,7 @@ function App() {
               <Route path={""} element={<PrivateRoute></PrivateRoute>}></Route>
             </Route>
           </Routes>
-
+>>>>>>> 4f280702a01113b99dcfc7cd208ed8e00fcb0161
         </BrowserRouter>
       </AuthProvider>
 
