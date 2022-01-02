@@ -1,10 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Home from './Pages/Home/Home/Home';
 import './App.css';
 import Contact from './Pages/Contact/Contact';
 import FQA from './Pages/FQA/FQA';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Pages/Home/Home/Home';
+
+// import Home from './Pages/Home/Home/Home';
 import Header from './Pages/Shared/Header/Header';
 import Shop from './Pages/Shop/Shop';
 import Login from './Pages/Login/Login';
@@ -13,10 +16,15 @@ import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from "./Pages/Login/PrivateRoute";
 import Dashboard from "./Dashboard/Dashboard";
 import AdminRoute from "./Dashboard/AdminRoute";
+// import Header from './Pages/Shared/Header/Header';
+import Footer from './Pages/Shared/Footer/Footer';
+import Review from './Pages/Review/Review';
+
 
 function App() {
   return (
     <div className="App">
+
       <AuthProvider>
         <BrowserRouter>
           <Routes>
@@ -53,6 +61,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </AuthProvider>
+
     </div>
   );
 }
