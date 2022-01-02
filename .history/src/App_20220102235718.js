@@ -42,13 +42,55 @@ function App() {
                 path="/dashboard"
                 element={<Dashboard></Dashboard>}
               ></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
+              <Route
+                path={""}
+                element={
+                  <AdminRoute>
+                    
+                  </AdminRoute>
+                }
+              ></Route>
 
-              <Route path={""} element={<PrivateRoute></PrivateRoute>}></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
-              <Route path={""} element={<PrivateRoute></PrivateRoute>}></Route>
+              <Route
+                path={""}
+                element={
+                  <PrivateRoute>
+                   
+                  </PrivateRoute>
+                }
+              ></Route>
+              <Route
+                path={""}
+                element={
+                  <AdminRoute>
+                    
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path={""}
+                element={
+                  <AdminRoute>
+                    
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path={""}
+                element={
+                  <AdminRoute>
+                    
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path={""}
+                element={
+                  <PrivateRoute>
+                    
+                  </PrivateRoute>
+                }
+              ></Route>
             </Route>
           </Routes>
         </BrowserRouter>

@@ -86,7 +86,7 @@ const Register = () => {
             </div>
 
             <div className="container">
-              <button onClick={reset} type="button" className="cancelbtn">
+              <button onClick={resetFrom} type="button" className="cancelbtn">
                 Reset
               </button>
               <span className="psw">

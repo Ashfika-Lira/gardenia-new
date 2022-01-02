@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import loginIcon from "../../images/preview.svg";
+import useAuth from "../../hooks/useAuth";
 import "./LoginRegister.css";
 import { Link } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
   const [loginData, setLoginData] = useState({});
@@ -87,7 +87,7 @@ const Login = () => {
             </div>
 
             <div className="container">
-              <Link to="/home">
+              <Link>
                 <button type="submit" className="cancelbtn">
                 Cancel
               </button>

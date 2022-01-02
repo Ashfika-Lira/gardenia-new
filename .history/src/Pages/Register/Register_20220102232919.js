@@ -6,7 +6,7 @@ import loginIcon from "../../images/preview.svg";
 import useAuth from "../../hooks/useAuth";
 
 const Register = () => {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit } = useForm();
   const navigation = useNavigate();
   const { user, registerUser, isLoading, authError } = useAuth();
 
@@ -24,7 +24,7 @@ const Register = () => {
         <div className="login-section mt-5 mb-5 ms-5">
           <form onSubmit={handleSubmit(onSubmit)} method="post">
             <div className="imgcontainer">
-              <h1 className="title-1"> Please <span className="login-title">Register</span> </h1>
+              <h1 className="title-1"> Please <span className="login-title"></span> Register</h1>
               <img className="w-25 avatar" src={loginIcon} alt="Avatar" />
             </div>
 
@@ -86,7 +86,7 @@ const Register = () => {
             </div>
 
             <div className="container">
-              <button onClick={reset} type="button" className="cancelbtn">
+              <button type="button" className="cancelbtn">
                 Reset
               </button>
               <span className="psw">

@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import loginIcon from "../../images/preview.svg";
-import "./LoginRegister.css";
-import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import "./LoginRegister.css";
 
 const Login = () => {
   const [loginData, setLoginData] = useState({});
@@ -46,7 +45,7 @@ const Login = () => {
         <div className="login-section mt-5 mb-5 me-5">
           <form onSubmit={handleLoginSubmit} method="post">
             <div className="imgcontainer">
-              <h1 className="title-1">Please <span className="login-title"> Login</span></h1>
+              <h1 className="title-1">Please <span> Login</span></h1>
               <img className="w-25 avatar" src={loginIcon} alt="Avatar" />
             </div>
             <div className="container">
@@ -87,11 +86,9 @@ const Login = () => {
             </div>
 
             <div className="container">
-              <Link to="/home">
-                <button type="submit" className="cancelbtn">
+              <button type="submit" className="cancelbtn">
                 Cancel
               </button>
-              </Link>
               <span className="psw">
                 Forgot <a href="#">password?</a>
               </span>

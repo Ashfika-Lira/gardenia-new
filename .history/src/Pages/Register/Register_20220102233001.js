@@ -6,7 +6,7 @@ import loginIcon from "../../images/preview.svg";
 import useAuth from "../../hooks/useAuth";
 
 const Register = () => {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit } = useForm();
   const navigation = useNavigate();
   const { user, registerUser, isLoading, authError } = useAuth();
 
@@ -86,7 +86,7 @@ const Register = () => {
             </div>
 
             <div className="container">
-              <button onClick={reset} type="button" className="cancelbtn">
+              <button onClick={rese} type="button" className="cancelbtn">
                 Reset
               </button>
               <span className="psw">

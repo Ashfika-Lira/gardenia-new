@@ -40,15 +40,57 @@ function App() {
               <Route
                 exact
                 path="/dashboard"
-                element={<Dashboard></Dashboard>}
+                element={<DashboardHome></DashboardHome>}
               ></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
+              <Route
+                path={"/dashboard/adminDashboard"}
+                element={
+                  <AdminRoute>
+                    <AdminDashboard></AdminDashboard>
+                  </AdminRoute>
+                }
+              ></Route>
 
-              <Route path={""} element={<PrivateRoute></PrivateRoute>}></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
-              <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
-              <Route path={""} element={<PrivateRoute></PrivateRoute>}></Route>
+              <Route
+                path={"/dashboard/userDashboard"}
+                element={
+                  <PrivateRoute>
+                    <UserDashboard></UserDashboard>
+                  </PrivateRoute>
+                }
+              ></Route>
+              <Route
+                path={"/dashboard/updateServices"}
+                element={
+                  <AdminRoute>
+                    <UpdateServices></UpdateServices>
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path={"/dashboard/allServices"}
+                element={
+                  <AdminRoute>
+                    <AllServices></AllServices>
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path={"/dashboard/allApplicationStatus"}
+                element={
+                  <AdminRoute>
+                    <AllApplicationStatus></AllApplicationStatus>
+                  </AdminRoute>
+                }
+              ></Route>
+              <Route
+                path={"/dashboard/ApplicationStatus"}
+                element={
+                  <PrivateRoute>
+                    <ApplicationStatus></ApplicationStatus>
+                  </PrivateRoute>
+                }
+              ></Route>
             </Route>
           </Routes>
         </BrowserRouter>

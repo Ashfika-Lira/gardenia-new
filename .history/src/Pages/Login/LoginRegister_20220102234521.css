@@ -40,8 +40,8 @@ button:hover {
   border-radius: 2px;
   padding: 5px 10px;
   background-color: #ffd000;
-  /* color: #eb0f5d; */
-  font-weight: 400;
+  color: #eb0f5d;
+  
 }
 
 .imgcontainer {

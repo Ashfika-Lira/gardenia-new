@@ -24,7 +24,7 @@ button {
 }
 
 .login-title{
-    color: #eb0f5d;
+    color: ;
 }
 
 .create-btn{
@@ -38,10 +38,8 @@ button:hover {
 .cancelbtn {
   width: auto;
   border-radius: 2px;
-  padding: 5px 10px;
+  padding: 10px 18px;
   background-color: #ffd000;
-  /* color: #eb0f5d; */
-  font-weight: 400;
 }
 
 .imgcontainer {
