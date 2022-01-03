@@ -1,5 +1,9 @@
 import React from "react";
 import Navigation from "../../Shared/Navigation/Navigation";
+
+
+
+
 import { useGetAllPostQuery } from "../../../hooks/useProducts";
 import Header from "../../Shared/Header/Header";
 import Products from "../../Products/Products";
@@ -11,12 +15,19 @@ import Banner from "../Banner/Banner";
 import RecentProjects from "../RecentProjects/RecentProjects";
 import FeatursImg from "../FeatursImg/FeatursImg";
 
+
 const Home = () => {
   const { data } = useGetAllPostQuery();
   return (
+
+    <div>
+      <Navigation></Navigation>
+
+
     <>
       <Header></Header>
       <Navigation></Navigation>
+
       <Banner></Banner>
       <FeatursImg></FeatursImg>
       <Container>
@@ -30,8 +41,12 @@ const Home = () => {
       <RecentProjects></RecentProjects>
       <Review></Review>
       <Contact></Contact>
+
+    </div>
+
       <Footer></Footer>
     </>
+
   );
 };
 
