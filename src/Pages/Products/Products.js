@@ -20,7 +20,7 @@ const Products = (props) => {
         <>
         <Col className="g-4" lg={4}>
             <Card className="gb-4">
-                <Card.Img className="img img-fluid img-size" src={img} />
+                <Card.Img className="img img-fluid product-img-size" src={img} />
                 <Card.Body className="card-height">
                         <div className='d-flex justify-content-between'>
                             <Card.Title>{name}</Card.Title>

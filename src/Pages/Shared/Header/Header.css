@@ -1,7 +1,13 @@
+
 .header-logo {
     height: 3rem;
 }
 .srch-btn {
     height: 3.1rem;
     width: 10%;
+}
+.cart-icon{
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 200px;
 }

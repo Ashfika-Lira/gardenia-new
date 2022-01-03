@@ -1,0 +1,50 @@
+.contact-part {
+  text-align: start;
+}
+.contact-part p {
+  color: #eb0f5d;
+  font-size: 20px;
+}
+.contact-part h1 {
+  color: #323232;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.single-info .info-i {
+  color: #eb0f5d;
+}
+.single-info p {
+  color: #9c9c9c;
+}
+.contact-box {
+  margin-top: 35px;
+  text-align: start;
+}
+.contact-box h1 {
+  color: #323232;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+button {
+  background-color: #eb0f5d;
+  padding: 7px 15px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+span {
+  color: #eb0f5d;
+}
+
+.border-0{
+  
+}
