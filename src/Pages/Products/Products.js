@@ -1,19 +1,20 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 import { addToCart } from '../../features/CartItem/cartSlice';
 import './Products.css'
 
 const Products = (props) => {
     const { name, price, img, detail, } = props.product;
-    const { items: products, status } = useSelector((state) => state.products);
+
   const dispatch = useDispatch();
-//   const history = useNavigate();
+  const history = useNavigate();
 
 
   const handleAddToCart = (product) => {
-    dispatch(addToCart(product));
+      dispatch(addToCart(product));
+      history("/mycart");
   };
     return (
         <>

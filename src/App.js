@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
 import './App.css';
 import Contact from './Pages/Contact/Contact';
@@ -11,7 +11,6 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import AuthProvider from './Context/AuthProvider';
 import Cart from './Pages/UserRoute/Cart/Cart';
-
 import PrivateRoute from "./Pages/Login/PrivateRoute";
 import Dashboard from "./Dashboard/Dashboard";
 import AdminRoute from "./Dashboard/AdminRoute";

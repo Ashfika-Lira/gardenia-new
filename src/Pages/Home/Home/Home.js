@@ -20,7 +20,7 @@ const Home = () => {
 
       <Container>
         <Row>
-          {data?.map((items) => (
+          {data?.slice(0,6).map((items) => (
             <Products key={items._id} product={items}></Products>
           ))}
         </Row>
