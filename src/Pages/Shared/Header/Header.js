@@ -1,5 +1,7 @@
 import React from 'react';
-import logo1 from "../../../images/istockphoto-1138644570-612x612.jpg";
+import { Nav } from 'react-bootstrap';
+import { HashLink } from "react-router-hash-link";
+import logo1 from "../../../images/gardenia-logo.png";
 
 const Header = () => {
   return (
@@ -22,10 +24,12 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <div className="menu-container ">
                 <div className="d-flex mt-1">
-                  <img className="w-25" src={logo1} alt="" />
+                  <Nav.Link as={HashLink} to="/mycart">
+                    <img className="w-25" src={logo1} alt="" />
+                  </Nav.Link>
                   <h5 className="mt-3">Shopping Cart</h5>
                 </div>
               </div>
