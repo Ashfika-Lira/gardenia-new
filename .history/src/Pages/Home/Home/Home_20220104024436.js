@@ -11,6 +11,8 @@ import Banner from "../Banner/Banner";
 import RecentProjects from "../RecentProjects/RecentProjects";
 import FeaturesImg from "../FeaturesImg/FeaturesImg";
 
+
+
 const Home = () => {
   const { data } = useGetAllPostQuery();
   return (

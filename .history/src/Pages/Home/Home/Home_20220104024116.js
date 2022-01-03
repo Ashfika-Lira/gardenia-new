@@ -9,16 +9,19 @@ import Footer from "../../Shared/Footer/Footer";
 import Contact from "../../Contact/Contact";
 import Banner from "../Banner/Banner";
 import RecentProjects from "../RecentProjects/RecentProjects";
-import FeaturesImg from "../FeaturesImg/FeaturesImg";
+import FeatursImg from "../FeatursImg/FeatursImg";
+
 
 const Home = () => {
   const { data } = useGetAllPostQuery();
   return (
+
     <>
       <Header></Header>
       <Navigation></Navigation>
+
       <Banner></Banner>
-      <FeaturesImg></FeaturesImg>
+      <FeatursImg></FeatursImg>
       <Container>
         <Row>
           {data?.slice(0, 6).map((items) => (
@@ -31,6 +34,7 @@ const Home = () => {
       <Contact></Contact>
       <Footer></Footer>
     </>
+
   );
 };
 
