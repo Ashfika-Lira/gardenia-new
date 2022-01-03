@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-const Contact = () => {
-    return (
-        <div>
-            <h1> Contact Page</h1>
-        </div>
-    );
-};
-
-export default Contact;
-=======
 import React from "react";
 import { Container, Form, Row } from "react-bootstrap";
 import "./Contact.css";
@@ -142,4 +129,3 @@ const Contact = () => {
 };
 
 export default Contact;
->>>>>>> 3abc187b33c4cc090690e026627658bea6a1f5f9
