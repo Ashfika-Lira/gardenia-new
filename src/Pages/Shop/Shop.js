@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { useGetAllPostQuery } from '../../hooks/useProducts';
 import Products from '../Products/Products';
+import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 import Navigation from '../Shared/Navigation/Navigation';
 
@@ -21,6 +22,7 @@ const Shop = () => {
             }
         </Row>
         </Container>
+      <Footer />
       </>
     );
 };

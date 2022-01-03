@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/download.png';
+import logo from '../../../images/gardenia.png';
 
 const Footer = () => {
 	return (
@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container p-4">
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
                     <div className="col">
-                        <img width="150px" src={logo} alt="" />
+                        <img width="250px" src={logo} alt="" />
                     </div>
                     <div className="col text-light mt-3">
                         <h4  className="m-0">About Gardenia</h4><br />
@@ -32,7 +32,7 @@ const Footer = () => {
                 <h6>Pricing</h6>
             </div>
             <div className="footer-link">
-                <h6>Terms & Conditions</h6>
+                <h6>Terms {'&'} Conditions</h6>
             </div> 
 						
                     </div>

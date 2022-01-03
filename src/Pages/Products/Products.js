@@ -24,14 +24,14 @@ const Products = (props) => {
                 <Card.Body className="card-height">
                         <div className='d-flex justify-content-between'>
                             <Card.Title>{name}</Card.Title>
-                            <h5 className='fw-bold'>Price: {price}</h5>
+                            <h5 style={{ color: '#eb0f5d' }} className='fw-bold'>Price: {price}</h5>
                         </div>
                     <Card.Text>
                     {detail.slice(0, 100)}
                     </Card.Text>
                 </Card.Body>
                 <Card.Body>
-                    <Button onClick={()=> handleAddToCart(props.product)} variant="secondary" size="sm">Add To Cart</Button>
+                    <Button style={{ backgroundColor: '#eb0f5d' }} onClick={()=> handleAddToCart(props.product)} variant="secondary" size="sm">Add To Cart</Button>
                 </Card.Body>
             </Card>
         </Col>
