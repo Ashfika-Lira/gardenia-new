@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-8 col-md-6 col-sm-12">
-                        <h5 className="text-light">copyright &copy; reserved <span className="text-name">Gardenia</span></h5>
+                        <h5 className="text-light">copyright &copy; reserved <span className="text-name">Gardenia</span></h2>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                     </div>

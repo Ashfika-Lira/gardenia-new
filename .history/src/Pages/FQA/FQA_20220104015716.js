@@ -1,11 +1,10 @@
 import React from 'react';
 import { Accordion } from "react-bootstrap";
-import Navigation from '../Shared/Navigation/Navigation';
 
 const FQA = () => {
   return (
     <>
-      <Navigation></Navigation>
+      <Navigation
 <div className="container mt-5">
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">

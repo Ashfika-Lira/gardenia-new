@@ -21,8 +21,8 @@ const Navigation = () => {
 
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
-          <Nav.Link as={HashLink} to="/home">
-            Home
+          <Nav.Link as={HashLink} to="/shop">
+            Shops
           </Nav.Link>
           <Nav.Link as={HashLink} to="/shop">
             Shops
@@ -33,9 +33,9 @@ const Navigation = () => {
           <Nav.Link as={HashLink} to="/FQA">
             FQA
           </Nav.Link>
-          {/* <Nav.Link as={HashLink} to="/Contact">
+          <Nav.Link as={HashLink} to="/Contact">
             Contact
-          </Nav.Link> */}
+          </Nav.Link>
           {
             user.email && <Nav.Link as={HashLink} to="/dashboard">
             Dashboard

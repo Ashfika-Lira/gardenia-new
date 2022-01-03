@@ -33,9 +33,9 @@ const Navigation = () => {
           <Nav.Link as={HashLink} to="/FQA">
             FQA
           </Nav.Link>
-          {/* <Nav.Link as={HashLink} to="/Contact">
+          <Nav.Link as={HashLink} to="/Contact">
             Contact
-          </Nav.Link> */}
+          </Nav.Link>
           {
             user.email && <Nav.Link as={HashLink} to="/dashboard">
             Dashboard

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Form, Row } from "react-bootstrap";
+import { Container, Form, Row } from "react-bootstrap";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -42,18 +42,11 @@ const Contact = () => {
       {/* <Navigation></Navigation> */}
       <Container>
         
-        <Row >
-          
-          
-
-
+        <Row className="">
           <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
-          </div>
-          
-          <Col>
-
-            <div className="col-lg-12  contact-part">
+          <h2 className="mt-5">Contact Us</h2>
+        </div>
+          <div className="col-lg-6  contact-part">
             <h1>Our Address Support</h1>
             <p className="text-dark my-4 w-75">
               Contact information is the data you provide that lets recruiters
@@ -90,10 +83,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          </Col>
-          
-          <Col>
-            <div className="col-lg-12 ">
+          <div className="col-lg-6 contact-box">
             <h1>
               Send Your <span>Request</span>
             </h1>
@@ -135,10 +125,6 @@ const Contact = () => {
               <button type="submit">Submit</button>
             </Form>
           </div>
-          </Col>
-
-          
-
         </Row>
       </Container>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Form, Row } from "react-bootstrap";
+import { Container, Form, Row } from "react-bootstrap";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -42,58 +42,12 @@ const Contact = () => {
       {/* <Navigation></Navigation> */}
       <Container>
         
-        <Row >
-          
-          
-
-
+        <Row className="">
           <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
-          </div>
+          <h2 className="mt-5 text-center">Contact Us</h2>
+        </div>
           
-          <Col>
-
-            <div className="col-lg-12  contact-part">
-            <h1>Our Address Support</h1>
-            <p className="text-dark my-4 w-75">
-              Contact information is the data you provide that lets recruiters
-              get in touch with you. For all professionals.
-            </p>
-            <div className="info-details">
-              <div className="single-info">
-                <Row>
-                  <div className="col-2 fs-2 mt-1 info-i">{location}</div>
-                  <div className="col-10">
-                    <h5 className="fw-bold">Company Office</h5>
-                    <p>Khulshi, Chittagong, Bangladesh.</p>
-                  </div>
-                </Row>
-              </div>
-
-              <div className="single-info">
-                <Row>
-                  <div className="col-2 fs-2 mt-1 info-i">{phone}</div>
-                  <div className="col-10">
-                    <h5 className="fw-bold">Hotline Number</h5>
-                    <p>+880 1234567890</p>
-                  </div>
-                </Row>
-              </div>
-              <div className="single-info">
-                <Row>
-                  <div className="col-2 fs-2 mt-1 info-i">{email}</div>
-                  <div className="col-10">
-                    <h5 className="fw-bold">Ask your question</h5>
-                    <p>gardenia@gmail.com</p>
-                  </div>
-                </Row>
-              </div>
-            </div>
-          </div>
-          </Col>
-          
-          <Col>
-            <div className="col-lg-12 ">
+          <div className="col-lg-6 contact-box">
             <h1>
               Send Your <span>Request</span>
             </h1>
@@ -135,7 +89,6 @@ const Contact = () => {
               <button type="submit">Submit</button>
             </Form>
           </div>
-          </Col>
 
           
 

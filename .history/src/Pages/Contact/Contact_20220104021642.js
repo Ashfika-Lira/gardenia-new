@@ -48,7 +48,7 @@ const Contact = () => {
 
 
           <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
+          <h2 className="mt-5 text-center">Contact Us</h2>
           </div>
           
           <Col>
@@ -97,7 +97,7 @@ const Contact = () => {
             <h1>
               Send Your <span>Request</span>
             </h1>
-            <Form className=" border-0" onSubmit={sendEmail}>
+            <Form  onSubmit={sendEmail}>
               <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Your Name</Form.Label>
                 <Form.Control

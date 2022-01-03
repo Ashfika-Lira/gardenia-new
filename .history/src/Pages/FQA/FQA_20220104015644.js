@@ -1,12 +1,12 @@
 import React from 'react';
 import { Accordion } from "react-bootstrap";
-import Navigation from '../Shared/Navigation/Navigation';
 
 const FQA = () => {
   return (
     <>
-      <Navigation></Navigation>
-<div className="container mt-5">
+      
+    </>
+    <div className="container mt-5">
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Payment Method</Accordion.Header>
@@ -34,8 +34,6 @@ const FQA = () => {
         </Accordion.Item>
       </Accordion>
     </div>
-    </>
-    
   );
 };
 

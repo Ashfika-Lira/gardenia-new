@@ -48,7 +48,7 @@ const Contact = () => {
 
 
           <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
+          <h2 className="mt-5 text-center t">Contact Us</h2>
           </div>
           
           <Col>

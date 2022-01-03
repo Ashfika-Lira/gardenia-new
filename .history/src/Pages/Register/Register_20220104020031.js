@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import loginIcon from "../../images/preview.svg";
 import useAuth from "../../hooks/useAuth";
-import Navigation from "../Shared/Navigation/Navigation";
 
 const Register = () => {
   const { register, handleSubmit, reset } = useForm();

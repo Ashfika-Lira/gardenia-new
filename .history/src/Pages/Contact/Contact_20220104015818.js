@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Form, Row } from "react-bootstrap";
+import { Container, Form, Row } from "react-bootstrap";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,7 +8,6 @@ import {
   faLocationArrow,
 } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
-import Navigation from "../Shared/Navigation/Navigation";
 
 const Contact = () => {
   const location = <FontAwesomeIcon icon={faLocationArrow} />;
@@ -38,22 +37,14 @@ const Contact = () => {
     alert("Your Email is Successfully Sended");
   };
   return (
-    <div className=" mb-5">
-      {/* <Navigation></Navigation> */}
+    <div>
+      
       <Container>
-        
-        <Row >
-          
-          
-
-
-          <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
-          </div>
-          
-          <Col>
-
-            <div className="col-lg-12  contact-part">
+        <div className="section-heading my-4">
+          <h2>Contact Us</h2>
+        </div>
+        <Row className="mt-4">
+          <div className="col-lg-6  contact-part">
             <h1>Our Address Support</h1>
             <p className="text-dark my-4 w-75">
               Contact information is the data you provide that lets recruiters
@@ -90,15 +81,12 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          </Col>
-          
-          <Col>
-            <div className="col-lg-12 ">
+          <div className="col-lg-6 contact-box">
             <h1>
               Send Your <span>Request</span>
             </h1>
-            <Form className=" border-0" onSubmit={sendEmail}>
-              <Form.Group className="mb-3" controlId="formBasicName">
+            <Form onSubmit={sendEmail}>
+              <Form.Group className="mb-3 border-0" controlId="formBasicName">
                 <Form.Label>Your Name</Form.Label>
                 <Form.Control
                   type="text"
@@ -135,10 +123,6 @@ const Contact = () => {
               <button type="submit">Submit</button>
             </Form>
           </div>
-          </Col>
-
-          
-
         </Row>
       </Container>
     </div>

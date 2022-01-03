@@ -48,7 +48,7 @@ const Contact = () => {
 
 
           <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
+          <h2 className="mt-5 text-center">Contact Us</h2>
           </div>
           
           <Col>
@@ -93,48 +93,7 @@ const Contact = () => {
           </Col>
           
           <Col>
-            <div className="col-lg-12 ">
-            <h1>
-              Send Your <span>Request</span>
-            </h1>
-            <Form className=" border-0" onSubmit={sendEmail}>
-              <Form.Group className="mb-3" controlId="formBasicName">
-                <Form.Label>Your Name</Form.Label>
-                <Form.Control
-                  type="text"
-                  required
-                  name="name"
-                  placeholder="Enter Name"
-                />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control
-                  type="email"
-                  name="email"
-                  placeholder="Enter email"
-                />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicSubject">
-                <Form.Label>Your Subject</Form.Label>
-                <Form.Control
-                  type="text"
-                  name="subject"
-                  required
-                  placeholder="Enter Subject"
-                />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control name="message" as="textarea" rows={3} />
-              </Form.Group>
-
-              <button type="submit">Submit</button>
-            </Form>
-          </div>
+            
           </Col>
 
           

@@ -48,7 +48,7 @@ const Contact = () => {
 
 
           <div className="section-heading my-4 ">
-          <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
+          <h2 className="mt-5 text-center">Contact Us</h2>
           </div>
           
           <Col>
@@ -92,8 +92,7 @@ const Contact = () => {
           </div>
           </Col>
           
-          <Col>
-            <div className="col-lg-12 ">
+          <div className="col-lg-6 contact-box">
             <h1>
               Send Your <span>Request</span>
             </h1>
@@ -135,7 +134,6 @@ const Contact = () => {
               <button type="submit">Submit</button>
             </Form>
           </div>
-          </Col>
 
           
 

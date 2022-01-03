@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import loginIcon from "../../images/preview.svg";
 import useAuth from "../../hooks/useAuth";
-import Navigation from "../Shared/Navigation/Navigation";
 
 const Register = () => {
   const { register, handleSubmit, reset } = useForm();
@@ -21,7 +20,6 @@ const Register = () => {
 
   return (
     <>
-      <Navigation></Navigation>
       <div className="container register-container">
       {!isLoading && (
         <div className="login-section mt-5 mb-5 ms-5">

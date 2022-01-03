@@ -5,7 +5,6 @@ import loginIcon from "../../images/preview.svg";
 import "./LoginRegister.css";
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-import Navigation from "../Shared/Navigation/Navigation";
 
 const Login = () => {
   const [loginData, setLoginData] = useState({});
@@ -43,7 +42,7 @@ const Login = () => {
 
   return (
     <>
-      <Navigation></Navigation>
+      <Navi
       <div className="container register-container ">
       <div className="w-100 align-center">
         <div className="login-section mt-5 mb-5 me-5">

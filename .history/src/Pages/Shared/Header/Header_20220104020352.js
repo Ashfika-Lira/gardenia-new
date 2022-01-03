@@ -30,7 +30,7 @@ const Header = () => {
                     placeholder="Search here"
                     aria-label="Search"
                   />
-                  <button className="w-25">Search</button>
+                  <button className="w-50">Search Now</button>
                 </div>
               </div>
             </div>
