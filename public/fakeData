@@ -1,0 +1,35 @@
+[
+  {
+    "key": "371",
+    "name": "Ceramic vase",
+    "color": "White",
+    "price": 30.5,
+    "star": 3.7,
+    "brand": "Supreme",
+    "detail": "Our wooden Supreme offer customers distinguished, natural looks to fit both indoor and outdoor uses. With a variety of light and dark wood tones, our wooden planter options can mesh with your surrounding wood finishes or stand out with a statement wood tone.",
+    "category": "Vase",
+    "img": "https://i.ibb.co/bRtShR7/3-360x.webp"
+  },
+  {
+    "key": "372",
+    "name": "Hand Towel",
+    "color": "Fibre",
+    "price": 40.2,
+    "star": 4.2,
+    "brand": "Supreme",
+    "detail": "This hand-made round storage jar is crafted to replicate the antique wood used by village artisans to holding wheat, rice, and other foods from the local street markets as a storage container, these types of jars were primarily used during barter transactions.",
+    "category": "Towel",
+    "img": "https://i.ibb.co/kGcc5CB/3-1-360x.webp"
+  },
+  {
+    "key": "373",
+    "name": "Hand wash jar",
+    "color": "Blue",
+    "price": 45.2,
+    "star": 4.3,
+    "brand": "Nord Craft",
+    "detail": "Ball candle holder from Swedish brand Cooee Design which makes each piece unique and has a smooth finish which is this range's hallmark. The ball shaped candle holder comes in many different colours and sizes, which can be mixed and matched for a great look!",
+    "category": "Jar",
+    "img": "https://i.ibb.co/8YLG3R2/4-360x-1.webp"
+  }
+]

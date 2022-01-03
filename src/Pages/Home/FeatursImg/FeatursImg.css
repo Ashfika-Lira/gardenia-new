@@ -1,0 +1,35 @@
+.feature1 {
+  background-image: url(../../../images/feature1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+.feature2 {
+  background-image: url(../../../images/feature2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  margin: 10px 13px;
+  text-align: center;
+}
+.feature3 {
+  background-image: url(../../../images/feature3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+
+.feature1 button,
+.feature2 button,
+.feature3 button {
+  margin-top: 190px;
+  background-color: white;
+  color: #eb0f5d;
+}

@@ -1,55 +1,27 @@
 import React from 'react';
-import { Dropdown, Nav, Navbar } from 'react-bootstrap';
-import { HashLink } from 'react-router-hash-link';
+import { Button, Nav, Navbar } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
+import useAuth from "../../../hooks/useAuth";
 
 const Navigation = () => {
-    
-  
+  const { user, logOut } = useAuth();
 
   return (
     <Navbar
-      className="px-4 navigation-bar-main"
+      className="px-4 navigation-bar-main "
+      sticky="top"
       collapseOnSelect
       expand="lg"
       variant="light"
     >
       <Navbar.Brand as={HashLink} to="/Home">
-        Gardenia
+        <span className='brand-name'>Gardenia</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
       <Navbar.Collapse id="responsive-navbar-nav">
-        {/* <Nav className="me-auto">
-          <Dropdown>
-            <Dropdown.Toggle variant="outline-dark" id="dropdown-basic">
-              Grocery
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-              <Dropdown.Item as={HashLink} to="/home">
-                Grocery
-              </Dropdown.Item>
-              <Dropdown.Item as={HashLink} to="/bags">
-                Bags
-              </Dropdown.Item>
-              <Dropdown.Item as={HashLink} to="/furniture">
-                Furniture
-              </Dropdown.Item>
-              <Dropdown.Item as={HashLink} to="/bakery">
-                Bakery
-              </Dropdown.Item>
-              <Dropdown.Item as={HashLink} to="/mackUp">
-                Mack up
-              </Dropdown.Item>
-              <Dropdown.Item as={HashLink} to="/cloths">
-                Cloths
-              </Dropdown.Item>
-              <Dropdown.Item as={HashLink} to="/dailyNeeds">
-                Daily Needs
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-        </Nav> */}
         <Nav>
-          <Nav.Link as={HashLink} to="/shops">
+          <Nav.Link as={HashLink} to="/shop">
             Shops
           </Nav.Link>
           <Nav.Link as={HashLink} to="/offers">
@@ -62,11 +34,27 @@ const Navigation = () => {
             Contact
           </Nav.Link>
         </Nav>
-        
+        <Nav className='ms-auto'>
+          
+          <Nav.Link as={HashLink} to="/Contact">
+            {user.displayName}
+          </Nav.Link>
+          {
+            user.email? <Button
+                className=" nav-items-btn m-0 me-auto p-0 text-secondary "
+                onClick={logOut}
+                variant="button"
+              >
+                Logout
+              </Button>: <Nav.Link as={HashLink} to="/Login">
+              Login
+            </Nav.Link>
+         }
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
-        
-    );
+  );
 };
-
+ 
 export default Navigation;
+

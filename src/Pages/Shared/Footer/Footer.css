@@ -1,0 +1,15 @@
+.footerbg {
+  background-color: #b0c3c2;
+  color: white;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-link:hover {
+  color: lightcoral;
+  text-decoration: underline;
+}
+.text-name {
+  color: lightcoral;
+}
