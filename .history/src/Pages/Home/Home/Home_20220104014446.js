@@ -1,5 +1,9 @@
 import React from "react";
 import Navigation from "../../Shared/Navigation/Navigation";
+
+
+
+
 import { useGetAllPostQuery } from "../../../hooks/useProducts";
 import Header from "../../Shared/Header/Header";
 import Products from "../../Products/Products";
@@ -16,7 +20,8 @@ const Home = () => {
   const { data } = useGetAllPostQuery();
   return (
 
-    
+    <div>
+      <Navigation></Navigation>
 
 
     <>
@@ -40,6 +45,7 @@ const Home = () => {
       <Review></Review>
       <Contact></Contact>
 
+    </div>
 
       <Footer></Footer>
     </>

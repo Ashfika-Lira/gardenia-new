@@ -14,6 +14,7 @@ import Cart from "./Pages/UserRoute/Cart/Cart";
 import PrivateRoute from "./Pages/Login/PrivateRoute";
 import Dashboard from "./Dashboard/Dashboard";
 import AdminRoute from "./Dashboard/AdminRoute";
+<<<<<<< HEAD
 import AdminDashboard from "./Dashboard/AdminDashboard/AdminDashboard";
 import UserDashboard from './Dashboard/UserDashboard/UserDashboard';
 import AddProducts from './Dashboard/AdminDashboard/AddProducts';
@@ -25,7 +26,8 @@ import AllProducts from './Dashboard/AdminDashboard/AllProducts';
 import UpdateProducts from './Dashboard/AdminDashboard/UpdateProducts';
 import AllOrders from './Dashboard/AdminDashboard/AllOrders';
 
-
+=======
+>>>>>>> a31cc231a5eb80b7f3881f56dfae3cc32213fec7
 
 function App() {
   return (
@@ -59,7 +61,7 @@ function App() {
                   </AdminRoute>
                 }
               ></Route>
-
+<<<<<<< HEAD
 
             
               <Route path="/dashboard/userDashboard" element={<PrivateRoute><UserDashboard/> </PrivateRoute>}></Route>

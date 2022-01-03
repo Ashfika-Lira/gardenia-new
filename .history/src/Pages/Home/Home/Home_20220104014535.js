@@ -40,6 +40,7 @@ const Home = () => {
       <Review></Review>
       <Contact></Contact>
 
+    </div>
 
       <Footer></Footer>
     </>
