@@ -8,7 +8,11 @@ const PrivateRoute = ({ children, ...rest }) => {
   const { user, isLoading } = useAuth();
   let location = useLocation();
   if (isLoading) {
-    return <Spinner />;
+    return (
+      <Spinner
+        
+      />
+    );
   }
   if (user.email) {
     return children;

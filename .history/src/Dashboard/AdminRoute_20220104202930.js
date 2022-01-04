@@ -10,12 +10,7 @@ const AdminRoute = ({ children, ...rest }) => {
 if (isLoading) {
     return (
       <Spinner
-       sx={{
-          fontSize: "200px",
-          color: "red",
-          marginLeft: "500px",
-          marginTop: "200px",
-        }}
+       h1
       />
     );
   }

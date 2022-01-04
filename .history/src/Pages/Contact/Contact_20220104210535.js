@@ -42,10 +42,11 @@ const Contact = () => {
       <Container>
         <Row>
           <div className="section-heading my-4 ">
+
             <h2 className="mt-0 text-center fw-bold">Contact Us</h2>
           </div>
 
-          <div>
+
             <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
           </div>
 

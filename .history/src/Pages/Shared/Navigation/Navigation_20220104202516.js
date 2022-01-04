@@ -37,7 +37,9 @@ const Navigation = () => {
          
         
 
-         
+          {/* <Nav.Link as={HashLink} to="/Contact">
+            Contact
+          </Nav.Link> */}
           {user.email && (
             <Nav.Link className="fs-5 text-dark " as={HashLink} to="/dashboard">
               Dashboard
