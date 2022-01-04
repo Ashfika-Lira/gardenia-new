@@ -77,6 +77,7 @@ function App() {
               <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
               <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
               <Route path={""} element={<AdminRoute></AdminRoute>}></Route>
+             \
             </Route>
             <Route path="/mycart" element={<PrivateRoute> <Cart></Cart> </PrivateRoute>}></Route>
           </Routes>

@@ -33,20 +33,29 @@ const Dashboard = () => {
           {/* If not admin show this */}
           {!admin && (
             <>
-              <Link className="dashboard-link" to="/dashboard/userDashboard">
-                <div className="dashboard-link-div">User Dashboard</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/myOrders">
-                <div className="dashboard-link-div"> My Orders</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/submitReviews">
-                <div className="dashboard-link-div">Review</div>
-              </Link>
-
-              <Link to="/home">
-                <div className="dashboard-link-div">
+              <div className="dashboard-link-div">
+                <Link className="dashboard-link" to="/dashboard/userDashboard">
+                  User Dashboard
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link
+                  className="dashboard-link"
+                  to="/dashboard/myOrders"
+                >
+                  My Orders
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link
+                  className="dashboard-link"
+                  to="/dashboard/submitReviews"
+                >
+                  Review
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link to="/home">
                   <Button
                     onClick={logOut}
                     className="py-0 m-0 dashboard-logout-btn dashboard-link"
@@ -54,37 +63,52 @@ const Dashboard = () => {
                     {" "}
                     Logout
                   </Button>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </>
           )}
 
           {/* If admin role show this  */}
           {admin && (
             <>
-              <Link className="dashboard-link" to="/dashboard/adminDashboard">
-                <div className="dashboard-link-div"> Admin Dashboard</div>
-              </Link>
+              <div className="dashboard-link-div">
+                <Link className="dashboard-link" to="/dashboard/adminDashboard">
+                  Admin Dashboard
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link
+                  className="dashboard-link"
+                  to="/dashboard/allOrders"
+                >
+                  All Orders
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link
+                  className="dashboard-link"
+                  to="/dashboard/updateOrders"
+                >
+                  Update Orders
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link className="dashboard-link" to="/dashboard/allProducts">
+                  All Products
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                <Link className="dashboard-link" to="/dashboard/updateProducts">
+                  Update Products
+                </Link>
+              </div>
+              <div className="dashboard-link-div">
+                
+              </div>
 
-              <Link className="dashboard-link" to="/dashboard/allOrders">
-                <div className="dashboard-link-div">All Orders</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/updateOrders">
-                <div className="dashboard-link-div">Update Orders</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/allProducts">
-                <div className="dashboard-link-div">All Products</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/updateProducts">
-                <div className="dashboard-link-div">Update Products</div>
-              </Link>
-
-              <Link className="dashboard-link " to="/dashboard/addProducts">
-                <div className="dashboard-link-div">Add Products</div>
-              </Link>
+              <Link className="dashboard-link-div" to="/dashboard/addProducts">
+                  Add Products
+                </Link>
 
               <Link className="dashboard-link" to="/home">
                 <div className="dashboard-link-div">
@@ -92,10 +116,14 @@ const Dashboard = () => {
                     onClick={logOut}
                     className="py-0 m-0 dashboard-logout-btn dashboard-link"
                   >
+               
                     Logout
-                  </Button>
-                </div>
-              </Link>
+                </Button>
+                  </div>
+                </Link>
+              
+               
+            
             </>
           )}
         </Col>

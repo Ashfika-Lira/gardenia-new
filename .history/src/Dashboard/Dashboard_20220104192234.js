@@ -45,8 +45,9 @@ const Dashboard = () => {
                 <div className="dashboard-link-div">Review</div>
               </Link>
 
+              
               <Link to="/home">
-                <div className="dashboard-link-div">
+                <div className="dashboard-link-div"></div>
                   <Button
                     onClick={logOut}
                     className="py-0 m-0 dashboard-logout-btn dashboard-link"
@@ -54,8 +55,8 @@ const Dashboard = () => {
                     {" "}
                     Logout
                   </Button>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </>
           )}
 

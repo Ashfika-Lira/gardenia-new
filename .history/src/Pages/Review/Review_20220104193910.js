@@ -19,7 +19,8 @@ const Review = () => {
   return (
     <div className="news-bg container-fluid">
       <h2 className="text-center  fs-1">
-        Happy Client <span className="title-1">Says</span>
+        Happy Client <span className="title-1">Says</span> 
+        
       </h2>
 
       <Carousel

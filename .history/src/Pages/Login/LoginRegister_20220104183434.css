@@ -75,22 +75,24 @@ span.psw {
 }
 
 .dashboard-link{
-  /* width: 200px; */
+  width: 150px;
     padding: 10px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
     color: #eb0f5d;
-    /* border-radius: 5px;
+    border-radius: 5px;
     padding: 5px;
     border: 1px solid #eb0f5d;
-    margin-top: 15px; */
+    /* background-color: rgb(211, 205, 205); */
+    margin-top: 15px;
 }
 .dashboard-link-div{
     border-radius: 5px;
     padding: 5px;
     border: 1px solid #eb0f5d;
-    /* margin-top: 15px; */
+    /* background-color: rgb(211, 205, 205); */
+    margin-top: 15px;
 }
 
 .dashboard-link-div:hover{

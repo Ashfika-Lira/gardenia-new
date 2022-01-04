@@ -33,20 +33,25 @@ const Dashboard = () => {
           {/* If not admin show this */}
           {!admin && (
             <>
-              <Link className="dashboard-link" to="/dashboard/userDashboard">
+              
+                <Link className="dashboard-link" to="/dashboard/userDashboard">
                 <div className="dashboard-link-div">User Dashboard</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/myOrders">
-                <div className="dashboard-link-div"> My Orders</div>
-              </Link>
-
-              <Link className="dashboard-link" to="/dashboard/submitReviews">
-                <div className="dashboard-link-div">Review</div>
-              </Link>
-
-              <Link to="/home">
-                <div className="dashboard-link-div">
+                  
+                </Link>
+              
+              
+                <Link className="dashboard-link" to="/dashboard/myOrders">
+                <div className="dashboard-link-div"></div>
+                  My Orders
+                </Link>
+              </div>
+              
+                <Link className="dashboard-link" to="/dashboard/submitReviews">
+                 <div className="dashboard-link-div">Review</div> 
+                </Link>
+              
+              <div className="dashboard-link-div">
+                <Link to="/home">
                   <Button
                     onClick={logOut}
                     className="py-0 m-0 dashboard-logout-btn dashboard-link"
@@ -54,8 +59,8 @@ const Dashboard = () => {
                     {" "}
                     Logout
                   </Button>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </>
           )}
 
