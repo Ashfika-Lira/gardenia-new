@@ -10,6 +10,7 @@ import Contact from "../../Contact/Contact";
 import Banner from "../Banner/Banner";
 import RecentProjects from "../RecentProjects/RecentProjects";
 import FeaturesImg from "../FeaturesImg/FeaturesImg";
+import Subscribe from "../Subscribe/Subscribe";
 
 const Home = () => {
   const { data } = useGetAllPostQuery();
@@ -28,6 +29,7 @@ const Home = () => {
       </Container>
       <RecentProjects></RecentProjects>
       <Review></Review>
+      <Subscribe></Subscribe>
       <Contact></Contact>
       <Footer></Footer>
     </>
