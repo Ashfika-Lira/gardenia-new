@@ -1,13 +1,17 @@
-import React from 'react';
-import DashboardSummary from '../DashboardSummary';
+import React from "react";
+import Chart from "../Chart/Chart";
+import DashboardSummary from "../DashboardSummary";
 
 const AdminDashboard = () => {
-    return (
-        <div>
-            <h1> Admin Dashboard</h1>
-            <DashboardSummary></DashboardSummary>
-        </div>
-    );
+  return (
+    <div>
+      <h1> Admin Dashboard</h1>
+      <DashboardSummary></DashboardSummary>
+      <div className="test-center">
+        <Chart></Chart>
+      </div>
+    </div>
+  );
 };
 
 export default AdminDashboard;
