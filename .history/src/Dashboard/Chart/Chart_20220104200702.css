@@ -1,0 +1,9 @@
+.main-section{
+align-items: center !;
+justify-content: center;
+text-align: center;
+}
+
+.test-center{
+    width: 50%;
+}

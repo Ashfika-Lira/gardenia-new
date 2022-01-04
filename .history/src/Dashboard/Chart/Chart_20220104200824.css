@@ -1,0 +1,11 @@
+.main-section{
+align-items: center !important;
+justify-content: center !important;
+text-align: center !important;
+}
+
+.test-center{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

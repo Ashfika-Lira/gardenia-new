@@ -8,7 +8,7 @@ import {
   faLocationArrow,
 } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
-import Navigation from "../Shared/Navigation/Navigation";
+
 
 const Contact = () => {
   const location = <FontAwesomeIcon icon={faLocationArrow} />;
@@ -42,9 +42,14 @@ const Contact = () => {
       <Container>
         <Row>
           <div className="section-heading my-4 ">
+<<<<<<< HEAD
             <h2 className="mt-0 text-center fw-bold">Contact Us</h2>
           </div>
 
+=======
+            <h2 className="mt-5 text-center fw-bold">Contact Us</h2>
+          </div>
+>>>>>>> 85e018a185f59544be19d6345e6c2ee3fce16271
           <Col>
             <div className="col-lg-12  contact-part">
               <h1>Our Address Support</h1>

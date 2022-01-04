@@ -33,6 +33,14 @@ const Navigation = () => {
           <Nav.Link className="fs-5 text-dark " as={HashLink} to="/FQA">
             FQA
           </Nav.Link>
+<<<<<<< HEAD
+         
+          {
+            user.email && <Nav.Link as={HashLink} to="/dashboard">
+            Dashboard
+          </Nav.Link>
+          }
+=======
           {/* <Nav.Link as={HashLink} to="/Contact">
             Contact
           </Nav.Link> */}
@@ -41,6 +49,7 @@ const Navigation = () => {
               Dashboard
             </Nav.Link>
           )}
+>>>>>>> ce1b747c90848adbe3862577fa2d3a1399944b97
         </Nav>
         <Nav className="ms-auto">
           <Nav.Link className="fs-5 text-dark " as={HashLink} to="/Contact">
